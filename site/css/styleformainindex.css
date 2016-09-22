@@ -613,7 +613,7 @@ div .no-gutter > [class*='col-'] {
   opacity:0.5;
   z-index:10;
   cursor: pointer;
-  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png);
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png)no-repeat;
   position:relative;
     top:10px;
     bottom:20px;
@@ -707,7 +707,7 @@ div .no-gutter > [class*='col-'] {
   opacity:0.5;
   z-index:10;
   cursor: pointer;
-  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png);
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png)no-repeat;
   position:relative;
     top:20px;
     bottom:20px;
@@ -781,7 +781,7 @@ div .no-gutter > [class*='col-'] {
   opacity:0.5;
   z-index:10;
   cursor: pointer;
-  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmallex.png);
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmallex.png)no-repeat;
   position:relative;
     top:20px;
     bottom:20px;
