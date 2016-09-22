@@ -137,7 +137,7 @@ div .no-gutter > [class*='col-'] {
   position: relative; 
   float: left; 
     top:10px;
-    left:0px;
+    left:-50px;
  }
  
 .ring{
