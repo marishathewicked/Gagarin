@@ -126,7 +126,7 @@ div .no-gutter > [class*='col-'] {
   position: relative; 
   float: left; 
     top:10px;
-    left:0px;
+    left:-50px;
  }
  
  .imagemain2{
@@ -146,7 +146,7 @@ div .no-gutter > [class*='col-'] {
     z-index:-5;
     position: relative;
     top:10px;
-    left:0px; 
+    left:-60px; 
     background: white;
     animation-name: rotate, cromatic;
     animation-duration: 5s, 5s;
@@ -197,8 +197,7 @@ div .no-gutter > [class*='col-'] {
  .containerforstars{
   width: 300px;
   height: 300px;
-  float5: left; 
-   position: relative;
+    position: relative;
     top:8px;
     left:160px;
     }
@@ -556,23 +555,81 @@ div .no-gutter > [class*='col-'] {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
- 
+ /* Lage 1440x400 ok
+  * Laptop 1024x369 ok */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+.imagemain{
+  width: 250px;
+  height: 250px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imagemainsmalltablet.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
+ 
+ .imagemain2{
+  width: 250px;
+  height: 250px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/smallprince22smalltablet.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
+ 
+.ring{
+    width: 270px;
+    height: 270px;
+    z-index:-5;
+    position: relative;
+    top:10px;
+    left:0px; 
+    background: white;
+    animation-name: rotate, cromatic;
+    animation-duration: 5s, 5s;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    opacity: 0.5;
+    box-shadow: 0 0 50px yellow;
+    border-radius: 50%;
+}
+   
+ .containerforstars{
+  width: 300px;
+  height: 300px;
+    position: relative;
+    top:8px;
+    left:16px;
+    }
+    .start{
+  width: 170px;
+  height: 98px;
+  opacity:0.5;
+  z-index:10;
+  cursor: pointer;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png);
+  position:relative;
+    top:10px;
+    bottom:20px;
+    right:40px;
+      }
   }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
    .navbar-brand {
     padding-top: 10px;
-    height: 80px;
+    height: 20px;
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 1vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { 
     font-size: .6em;
@@ -598,7 +655,64 @@ div .no-gutter > [class*='col-'] {
   .panel-footer section hr {
     width: 50%;
   }
+ .imagemain{
+  width: 200px;
+  height: 200px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imagemainsmall.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
  
+ .imagemain2{
+  width: 200px;
+  height: 200px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/smallprince22small.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
+ 
+.ring{
+    width: 220px;
+    height: 220px;
+    z-index:-5;
+    position: relative;
+    top:10px;
+    left:0px; 
+    background: white;
+    animation-name: rotate, cromatic;
+    animation-duration: 5s, 5s;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    opacity: 0.5;
+    box-shadow: 0 0 50px yellow;
+    border-radius: 50%;
+}
+   
+ .containerforstars{
+  width: 200px;
+  height: 200px;
+    position: relative;
+    top:8px;
+    left:16px;
+    }
+    .start{
+  width: 170px;
+  height: 98px;
+  opacity:0.5;
+  z-index:10;
+  cursor: pointer;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png);
+  position:relative;
+    top:10px;
+    bottom:20px;
+    right:40px;
+      }
   }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -615,5 +729,64 @@ div .no-gutter > [class*='col-'] {
     float: left;
     width: 100%;
   }
+   .imagemain{
+  width: 200px;
+  height: 200px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imagemainsmall.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
+ 
+ .imagemain2{
+  width: 200px;
+  height: 200px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/smallprince22small.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:0px;
+ }
+ 
+.ring{
+    width: 220px;
+    height: 220px;
+    z-index:-5;
+    position: relative;
+    top:10px;
+    left:0px; 
+    background: white;
+    animation-name: rotate, cromatic;
+    animation-duration: 5s, 5s;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    opacity: 0.5;
+    box-shadow: 0 0 50px yellow;
+    border-radius: 50%;
 }
+   
+ .containerforstars{
+  width: 200px;
+  height: 200px;
+    position: relative;
+    top:8px;
+    left:16px;
+    }
+    .start{
+  width: 170px;
+  height: 98px;
+  opacity:0.5;
+  z-index:10;
+  cursor: pointer;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanetsmall.png);
+  position:relative;
+    top:10px;
+    bottom:20px;
+    right:40px;
+      }
+}
+
 
