@@ -777,7 +777,7 @@ div .no-gutter > [class*='col-'] {
     }
     .start{
   width: 170px;
-  height: 98px;
+  height: 82px;
   opacity:0.5;
   z-index:10;
   cursor: pointer;
