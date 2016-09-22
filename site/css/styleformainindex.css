@@ -182,7 +182,7 @@ div .no-gutter > [class*='col-'] {
   opacity:0.5;
   z-index:10;
   cursor: pointer;
-  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanet.png);
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanet.png)no-repeat;
   position:relative;
     top:40px;
     bottom:20px;
