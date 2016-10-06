@@ -261,7 +261,7 @@ div .no-gutter > [class*='col-'] {
     -moz-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-
+}
 /* END HOME PAGE */
 
 /********** Medium devices only **********/
