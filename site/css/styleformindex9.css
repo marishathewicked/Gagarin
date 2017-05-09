@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Mon Amour One Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Mon Amour One Medium'), local('MonAmourOne-Medium'),
+        url(https://allfont.ru/cache/fonts/mon-amour-one-medium_1431732b118ed534ff171d6bd3f1b4d8.woff) format('woff'),
+        url(https://allfont.ru/cache/fonts/mon-amour-one-medium_1431732b118ed534ff171d6bd3f1b4d8.ttf) format('truetype');
+}
 html {
 }
 /*
