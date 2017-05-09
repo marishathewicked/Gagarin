@@ -287,7 +287,10 @@ position: relative;
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
- 
+ .text p{
+  font-size: .7em;
+  line-height: 1.35;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -310,7 +313,7 @@ position: relative;
  .text p{
    margin:30px 30px 10px;
    color:#104E8B;
-  font-size: .75em;
+  font-size: .6em;
   line-height: 1.35;
   }
   #xs-deliver {
@@ -348,6 +351,6 @@ position: relative;
  .text p{
    margin:30px 30px 10px;
    color:#104E8B;
-  font-size: .6em;
+  font-size: .5em;
   line-height: 1.35;
 }
