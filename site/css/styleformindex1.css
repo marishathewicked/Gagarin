@@ -1,0 +1,1086 @@
+html {
+}
+/*
+ *создание градиента http://www.cssmatic.com/gradient-generator
+ */
+body {
+font-size: 16px;
+font-family:'Indie Flower', cursive;
+background: rgba(183,222,237,1);
+background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(7%, rgba(183,222,237,1)), color-stop(9%, rgba(183,222,237,1)), color-stop(12%, rgba(183,222,237,1)), color-stop(19%, rgba(183,222,237,1)), color-stop(30%, rgba(113,206,239,1)), color-stop(32%, rgba(98,201,237,1)), color-stop(40%, rgba(40,182,227,1)), color-stop(41%, rgba(33,180,226,1)), color-stop(54%, rgba(82,116,128,1)), color-stop(64%, rgba(80,96,102,1)), color-stop(80%, rgba(49,61,66,1)), color-stop(86%, rgba(35,43,46,1)), color-stop(92%, rgba(20,24,26,1)), color-stop(100%, rgba(20,24,26,1)));
+background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+}
+h1{
+font-size: 18px;
+color:#8A2BE2;
+}
+/** HEADER **/
+#header-nav {
+  background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,0.56) 50%, rgba(188,224,238,0.11) 100%);
+  border-radius: 0;
+  border: 0;
+  height:100px;
+}
+
+#maintitle {
+margin-top:25px;
+margin-left:405px;
+font-size: 18px;
+}
+#maintitle p {
+margin-top:0px;
+margin-right:22px;
+}
+.text-center {
+margin-top:40px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+.navbar-brand h1 { 
+  font-family:'Indie Flower', cursive;
+  color: #FFFFE0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  padding-right:150px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 35px;
+  margin-right: 35px;
+ 
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 35px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  background: linear-gradient(to bottom, rgba(179,220,237,0.21) 0%, rgba(41,184,229,0.61) 50%, rgba(188,224,238,1) 100%);
+  border-top: 0;
+  }
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#email, #address {
+  line-height: 2;
+  }
+#email > span, #address > span {
+  font-size: 1.5em;
+}
+#address p {
+  color: #557c3e;
+  font-size: 1.2em;
+  line-height: 2.1;
+}
+#address a {
+  color: #191970;
+  }
+#email a {
+  color: #191970;
+  }
+  #testimonials a {
+  color: #FFD700;
+  }
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  font-size: 1.6em;
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+/* HOME PAGE */
+div .no-gutter > [class*='col-'] {
+    padding-right:10px;
+    margin-left:0px;
+    margin-bottom:20px;
+   }
+
+
+.maincont{
+  width: 100%;
+  height: 400px;
+  top: 50%;
+  left: 0%;
+  margin:5px;
+  background:linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 7%, rgba(183,222,237,1) 9%, rgba(183,222,237,1) 12%, rgba(183,222,237,1) 19%, rgba(113,206,239,1) 30%, rgba(98,201,237,1) 32%, rgba(40,182,227,1) 40%, rgba(33,180,226,1) 41%, rgba(82,116,128,1) 54%, rgba(80,96,102,1) 64%, rgba(49,61,66,1) 80%, rgba(35,43,46,1) 86%, rgba(20,24,26,1) 92%, rgba(20,24,26,1) 100%);
+  position: relative; 
+  float: left; 
+ }
+ .maincont2{
+  width: 750px;
+  height: 750px;
+  top: 50%;
+  left: 17%;
+  margin:5px;
+  border-radius:50%;
+  background:url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/dady750.jpg) no-repeat;
+  position: relative; 
+  float: left; 
+ }
+ .pair2{
+ position:absolute;
+    top:94px;
+    right:7%;
+ }
+ .ship1{
+  width: 50px;
+  height: 50px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/ship1s.png) no-repeat;
+  position:relative;
+    top:0px;
+    right:0%;
+    animation-name: right;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: right;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: right;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite; 
+      }
+ .pair3{
+ position:absolute;    
+ top:70px;
+ right:33%; 
+    animation-name: left;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: left;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: left;
+    -moz-animation-duration: 6s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite; 
+ }  
+  .ship2{
+  width: 50px;
+  height: 50px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/ship2s.png) no-repeat;
+  position:relative;
+  top:0px;
+  right:0%;      }
+ .pair1{
+ position:absolute;    
+ top:90px;
+ left:5%;
+ }      
+  .ship3{
+  width: 50px;
+  height: 50px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/ship3s.png) no-repeat;
+  position:relative;
+  top:0px;
+  left:0%;
+   animation-name: rightother;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: right;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: right;
+    -moz-animation-duration: 4s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite; 
+      }
+ .pair4{
+ position:absolute;    
+ top:105px;
+ left:30%;
+ }       
+      
+  .ship4{
+  width: 50px;
+  height: 50px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/ship4s.png) no-repeat;
+  position:relative;
+  top:0px;
+  left:0%;
+   animation-name: leftother;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: right;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: right;
+    -moz-animation-duration: 10s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite; 
+      }
+  .star1{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star1s.png) no-repeat;
+  position:relative;
+    top:-10px;
+     left:5%;
+     animation-name: rotatestar;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:5s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }
+ .star2{
+  width: 50px;
+  height: 260px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star2s.png) no-repeat;
+  position:relative;
+    top:-10px;
+     left:14%;
+     animation-name: rotatestar;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:4s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }
+ .star3{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star3s.png) no-repeat;
+  position:relative;
+    top:-10px;
+     left:22%;
+     animation-name: rotatestar;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:3s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }
+  .star4{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star4s.png) no-repeat;
+  position:relative;
+    top:-10px;
+     left:7%;
+     animation-name: rotatestar;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:2s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }
+  .star5{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star5s.png) no-repeat;
+  position:relative;
+    bottom:165px;
+     left:87%;
+    animation-name: rotatestar;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:4s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite; 
+      } 
+ .star6{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star6s.png) no-repeat;
+  position:relative;
+    bottom:75px;
+     left:5%;
+     animation-name: rotatestar;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:5s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }  
+ .star7{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star7s.png) no-repeat;
+  position:relative;
+    bottom:125px;
+     right:220%;
+    animation-name: rotatestar;
+    animation-duration: 4s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:4s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }
+ .star8{
+  width: 50px;
+  height: 250px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/star8s.png) no-repeat;
+  position:relative;
+    bottom:175px;
+     left:95%;
+    animation-name: rotatestar;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: rotatestar;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: rotatestar;
+    -moz-animation-duration:5s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }   
+  .star81{
+  width: 100px;
+  height: 76px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/speak2.png) no-repeat;
+  position:relative;
+    bottom:480px;
+     left:120%;
+    animation-name: transition;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: transition;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: transition;
+    -moz-animation-duration:8s;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+      }   
+  @keyframes transition{
+    0% {
+        filter:hue-rotate(100deg);
+            }
+    25% {
+        filter:hue-rotate(200deg);
+            }
+    50% {
+        filter:hue-rotate(300deg);
+            }
+    75% {
+        filter:hue-rotate(50deg);
+            }
+    100% {
+         filter:hue-rotate(10deg));
+        }
+
+}  
+  .diver{
+  width: 50px;
+  height: 50px;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/divers.png) no-repeat;
+  position:absolute;
+  z-index:50;
+  cursor: pointer;
+  top:-95px;
+  left:5%;
+      }  
+      
+ .diver:hover{
+  opacity:1;
+  }
+  
+ .imagemain2{
+  width: 300px;
+  height: 300px;
+  border-radius:150px;
+  background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/smallprince22.jpg);
+  position: relative; 
+  float: left; 
+    top:10px;
+    left:-50px;
+ }
+ 
+.ring{
+    width: 340px;
+    height: 340px;
+    z-index:-5;
+    position: relative;
+    top:10px;
+    left:-60px; 
+    background: white;
+    animation-name: rotate, cromatic;
+    animation-duration: 5s, 5s;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    opacity: 0.5;
+    box-shadow: 0 0 50px yellow;
+    border-radius: 50%;
+}
+
+ @keyframes rotate{
+  to
+    transform: rotate(360deg)
+}
+@keyframes cromatic{
+  0%
+    {background-color: #FFFF00}
+  15%
+   { background-color: #008F59}
+  30%
+   { background-color: #2771B2}
+  45%
+   { background-color: #6E3795}
+  60%
+    {background-color: #FF0000}
+  75%
+    {background-color: #FF9201}
+  100%
+    {background-color: #FFFF00}
+    }
+ .start{
+  width: 220px;
+  height: 128px;
+  opacity:0.5;
+  z-index:10;
+  cursor: pointer;
+  background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/alienplanet.png);
+  position:relative;
+    top:40px;
+    bottom:20px;
+    right:40px;
+      }
+      
+ 
+   
+ .containerforstars{
+  width: 300px;
+  height: 300px;
+    position: relative;
+    top:8px;
+    left:160px;
+    }
+    
+ .star {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: #f0d23c;
+   width: 0px;
+   height: 0px;
+   border-right:  50px solid transparent;
+   border-bottom: 20px  solid #f0d23c;
+   border-left:   50px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star:before {
+   border-bottom: 30px solid #f0d23c;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -20px;
+   left: -25px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   
+}
+.star:after {
+   position: absolute;
+   display: block;
+   color: #f0d23c;
+   top: 3px;
+   left: -55px;
+   width: 0px;
+   height: 0px;
+   border-right: 50px solid transparent;
+   border-bottom: 20px solid #f0d23c;
+   border-left: 50px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+ .star1: {
+    animation-name: right, rotatestar;
+    animation-duration: 3s, 5s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: right, rotatestar;
+    -webkit-animation-duration: 3s, 5s;
+    -webkit-animation-timing-function: ease-in-out, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: right, rotatestar;
+    -moz-animation-duration: 3s, 5s;
+    -moz-animation-timing-function: ease-in-out, ease-in-out;
+    -moz-animation-iteration-count: infinite, infinite;
+}
+
+.star:nth-child(2) {
+   animation-name: left, rotatestar;
+    animation-duration: 3s, 4s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: left, rotatestar;
+    -webkit-animation-duration: 3s, 4s;
+    -webkit-animation-timing-function: ease-in-out, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: left, rotatestar;
+    -moz-animation-duration: 3s, 4s;
+    -moz-animation-timing-function: ease-in-out, ease-in-out;
+    -moz-animation-iteration-count: infinite, infinite;
+}
+
+.star:nth-child(3) {
+    animation-name: right, rotatestar;
+    animation-duration: 3s, 3s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: right, rotatestar;
+    -webkit-animation-duration: 3s, 3s;
+    -webkit-animation-timing-function: ease-in-out, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: right, rotatestar;
+    -moz-animation-duration: 3s, 3s;
+    -moz-animation-timing-function: ease-in-out, ease-in-out;
+    -moz-animation-iteration-count: infinite, infinite;
+}
+
+.star:nth-child(4) {
+    animation-name: left, rotatestar;
+    animation-duration: 3s, 2s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: left, rotatestar;
+    -webkit-animation-duration: 3s, 2s;
+    -webkit-animation-timing-function: ease-in-out, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: left, rotatestar;
+    -moz-animation-duration: 3s, 2s;
+    -moz-animation-timing-function: ease-in-out, ease-in-out;
+    -moz-animation-iteration-count: infinite, infinite;
+}
+
+.star:nth-child(5) {
+    animation-name: right, rotatestar;
+    animation-duration: 3s, 2s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    -webkit-animation-name: right, rotatestar;
+    -webkit-animation-duration: 3s, 2s;
+    -webkit-animation-timing-function: ease-in-out, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -moz-animation-name: right, rotatestar;
+    -moz-animation-duration: 3s, 2s;
+    -moz-animation-timing-function: ease-in-out, ease-in-out;
+    -moz-animation-iteration-count: infinite, infinite;
+}
+
+@-webkit-keyframes right {
+    0% {
+        transform: rotate(-15deg);
+            }
+    50% {
+        transform: rotate(15deg);
+            }
+    100% {
+        transform: rotate(-15deg);
+          }
+}
+
+@-webkit-keyframes left {
+    0% {
+        transform: translate(25px);
+            }
+    50% {
+        transform: translate(-25px);
+            }
+    100% {
+        transform: translate(25px);
+        }
+}
+@-moz-keyframes right {
+    0% {
+        transform:rotate(-15deg);
+            }
+    50% {
+        transform:rotate(15deg);
+            }
+    100% {
+        transform: rotate(-15deg);
+          }
+}
+
+@-moz-keyframes left {
+    0% {
+        transform: translate(25px);
+            }
+    50% {
+        transform: translate(-25px);
+            }
+    100% {
+        transform: translate(25px);
+        }
+}
+@keyframes right {
+    0% {
+        transform:rotate(-15deg);
+            }
+    50% {
+        transform:rotate(15deg);
+            }
+    100% {
+        transform:rotate(-15deg);
+          }
+}
+
+@keyframes left {
+    0% {
+        transform: translate(25px);
+            }
+    50% {
+        transform: translate(-25px);
+            }
+    100% {
+        transform: translate(25px);
+        }
+}
+@-webkit-keyframes rightother {
+    0% {
+        transform: rotate(10deg);
+            }
+    50% {
+        transform: rotate(-10deg);
+            }
+    100% {
+        transform: rotate(10deg);
+          }
+}
+
+@-webkit-keyframes leftother {
+    0% {
+        transform: rotate(-6deg);
+            }
+    50% {
+        transform: rotate(6deg);
+            }
+    100% {
+        transform: rotate(-6deg);
+        }
+}
+@-moz-keyframes rightother {
+    0% {
+        transform:rotate(10deg);
+            }
+    50% {
+        transform:rotate(-10deg);
+            }
+    100% {
+        transform: rotate(10deg);
+          }
+}
+
+@-moz-keyframes leftother {
+    0% {
+        transform:rotate(-6deg);
+            }
+    50% {
+        transform:rotate(6deg);
+            }
+    100% {
+        transform: rotate(-6deg);
+        }
+}
+@keyframes rightother {
+    0% {
+        transform:rotate(10deg);
+            }
+    50% {
+        transform:rotate(-10deg);
+            }
+    100% {
+        transform:rotate(10deg);
+          }
+}
+
+@keyframes leftother {
+    0% {
+        transform: rotate(-6deg);
+            }
+    50% {
+        transform: rotate(6deg);
+            }
+    100% {
+        transform: rotate(-6deg);
+        }
+}
+
+ @-webkit-keyframes rotatestar {
+  50% {opacity:0.5;
+}
+}
+@keyframes rotatestar {
+  50% {opacity:0.5;
+}
+}
+@-moz-keyframes rotatestar {
+  50% {opacity:0.5;
+}
+}
+
+.window-header h2 {
+    color: #555;  
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+}
+.window-wrap:before {
+    content: "";
+    display: none;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+}
+.window-overlay {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 102;
+}
+.window-open:checked ~ .window-wrap:before,
+.window-open:checked ~ .window-wrap .window-overlay {
+    display: block;
+}
+.window-open:checked ~ .window-wrap .window-dialog {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 20%;
+}
+
+.window-dialog {
+    background: #fefefe;
+    border-radius: 15px;
+    border: none;
+    position: fixed;
+    width: 80%;
+    max-width: 500px;
+    left: 50%;
+    top: -100%;
+    -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -webkit-transform: translate(-50%, -500%);
+    -ms-transform: translate(-50%, -500%);
+    -o-transform: translate(-50%, -500%);
+    transform: translate(-50%, -500%);
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    z-index: 103;
+}
+.window-body {
+  padding: 0px 50px 0px 50px;
+}
+.window-body p {
+    margin: 0;
+    color: #A52A2A;
+    font-style: italic;
+    font-size: 20px;
+    text-indent: 0px; 
+}
+.window-body input {
+  outline: none;
+  border: 1px solid #FFDAB9;
+  border-radius: 5px;
+}
+.window-body input:hover{
+ border: 1px solid #A52A2A;
+  }
+ input[type=text]:focus {
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+}
+ 
+.window-header,
+.window-footer {
+    padding: 20px 20px;
+}
+.window-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.window-footer {
+    text-align: right;
+}
+
+.btn {
+    background: #fff;
+    border: #555 solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+}
+.btn:hover, .btn:focus {
+    background: #f2f2f2;
+}
+.btn-post {
+    background: #FA8072;
+    border-color:#E9967A;
+    color: #fff;
+}
+.btn-post:hover{
+   background: #FA8072;
+    border-color:#E9967A;
+    color: #fff;
+    border-radius: 50%;
+}
+.btn-close {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+#newdiv {
+    position: absolute;
+    top:10px;
+    margin: 0;
+    color:#8B1C62;
+  background: linear-gradient(to bottom, rgba(154,115,237,0) 0%, rgba(115,170,237,0.14) 16%, rgba(165,162,205,0.2) 23%, rgba(115,146,237,0.28) 32%, rgba(222,160,203,0.47) 42%, rgba(217,189,165,0.59) 48%, rgba(213,213,134,0.48) 53%, rgba(149,153,194,0.21) 65%, rgba(123,128,219,0.18) 70%, rgba(164,115,237,0.11) 83%, rgba(137,148,220,0.07) 91%, rgba(214,224,69,0.02) 100%);
+    font-style: italic;
+    font-size: 20px;
+    text-indent: 15px;
+    line-height: 1.5
+}
+
+/* END HOME PAGE */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ /* Lage 1440x400 ok
+  * Laptop 1024x369 ok */
+  .maincont2{
+  width: 750px;
+  height: 750px;
+  top: 50%;
+  left: 17%;
+  margin:5px;
+  border-radius:50%;
+  background:url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/dady750.jpg) no-repeat;
+  position: relative; 
+  float: left; 
+ }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ .maincont2{
+  width: 510px;
+  height: 510px;
+  top: 50%;
+  left: 17%;
+  margin:5px;
+  border-radius:50%;
+  background:url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/dady510.jpg) no-repeat;
+  position: relative; 
+  float: left; 
+ }
+ #maintitle {
+margin-top:25px;
+margin-left:25px;
+font-size: 18px;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   .navbar-brand {
+    padding-top: 10px;
+    height: 20px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 1vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  .maincont2{
+  width: 320px;
+  height: 320px;
+  top: 50%;
+  left: 7%;
+  margin:5px;
+  border-radius:50%;
+  background:url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/dady320.jpg) no-repeat;
+  position: relative; 
+  float: left; 
+ }
+ #maintitle {
+margin-top:25px;
+margin-left:15px;
+font-size: 14px;
+}
+  }
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+   .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+ .maincont2{
+  width: 280px;
+  height: 280px;
+  top: 50%;
+  left: 7%;
+  margin:5px;
+  border-radius:50%;
+  background:url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/new+folder/dady280.jpg) no-repeat;
+  position: relative; 
+  float: left; 
+ }
+ #maintitle {
+margin-top:25px;
+margin-left:10px;
+font-size: 14px;
+}
+}
+
