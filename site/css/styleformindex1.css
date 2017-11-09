@@ -34,6 +34,7 @@ font-size: 18px;
 #maintitle p {
 margin-top:0px;
 margin-right:22px;
+color:#6B33FF;
 }
 .text-center {
 margin-top:40px;
@@ -1047,8 +1048,8 @@ font-size: 18px;
  }
  #maintitle {
 margin-top:25px;
-margin-left:15px;
-font-size: 14px;
+margin-left:25px;
+font-size: 16px;
 }
   }
 
@@ -1080,7 +1081,7 @@ font-size: 14px;
  #maintitle {
 margin-top:25px;
 margin-left:10px;
-font-size: 14px;
+font-size: 16px;
 }
 }
 
